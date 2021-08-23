@@ -1,0 +1,211 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+/* Header-section ................................... */
+header{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-end;
+}
+.navContainer{
+    display: flex;
+}
+
+.navContainer-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 1rem;
+
+}
+.navContainer-box__item{
+
+    margin: 0 1rem;
+}
+
+.navContainer-box__item a{
+    font-size: 1.3rem;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: #70757a;
+    
+}
+.navContainer-box__item i{
+    font-size: 1.7rem;
+    color: rgb(77, 77, 77);
+    margin-left: 2rem;
+}
+
+.header-img{
+    height: 3rem;
+    width: 3rem;
+}
+.img-profile{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+/*Main-Conainer*/
+.googleLogo{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.googleLogo-container{
+    width: 30rem;
+    height: 10rem;
+    margin-top: 5rem;
+}
+.googleLogo-container__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/*search-container*/
+form{
+    height: 5rem;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-color: #70757a;
+}
+.search-box{
+    width: 60rem;
+    height: 4rem;
+    border-radius: 2rem;
+    border-color: #70757a;
+}
+
+.icons{
+    position:relative;
+    width: 60rem;
+    height: 5rem;
+    display: flex;
+    justify-content: space-between;
+    bottom: 3rem;
+    padding: 0 2rem;
+}
+
+.img-search{
+    width: 2rem;
+    height: 2rem;
+}
+.img-search img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.voice{
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+
+.search-buttons{
+    margin: 3rem;
+}
+
+.search-buttons a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    margin: 0 1rem;
+    padding: 1rem 1.3rem;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #3c4043;
+} 
+.search-buttons a:hover{
+    -webkit-box-shadow: 3px 1px 14px -8px #000000; 
+    box-shadow: 3px 1px 14px -8px #000000;
+
+}
+
+.search-info p{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.4rem;
+    margin-top: 1rem;
+}
+
+.search-info a{
+    text-decoration: none;
+    color: #1a0dab;
+}
+.search-info a:hover{
+    text-decoration: underline;
+}
+
+.white-container{
+    width: 100%;
+    height: 23rem;
+
+}
+
+/* footer containr........... */
+
+.footer-country{
+    background-color: #f0f0f0;
+    color: #70757a;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem 1rem 1rem 3rem;
+    font-size: 1.5rem;
+    border-bottom: 1px solid rgb(189, 189, 189);
+    font-family: 'Roboto', sans-serif;
+
+}
+.footer-nav{
+    background-color: #f0f0f0;
+    height: 4rem;   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navContainerF{
+    margin-left: 2.2rem;
+    margin-right: 2.2rem;
+}
+.navContainer-list{
+    display: flex;
+    list-style: none;
+}
+
+.navContainer-list li{
+    margin: 0 1.2rem 0 1.2rem;
+    font-size: 1.4rem;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.navContainer-list li>a{
+    text-decoration: none;
+    color: #70757a;
+}
+
+.navContainer-list li>a:hover{
+    text-decoration: underline;
+}
+
+
